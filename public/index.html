@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
   </head>
   <body class="text-zinc-600 font-body">
     <!-- content wrapper -->
@@ -20,13 +21,13 @@
               >
               
             </h1>
-            <div class="px-4 cursor-pointer md:hidden">
+            <div class="px-4 cursor-pointer md:hidden" id="burger">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             </div>
           </div>
-          <ul class="text-sm mt-6">
+          <ul class="text-sm mt-6 hidden md:block" id="menu">
             <li class="text-zinc-700 font-bold py-1">
               <a href="#" class="px-5 flex justify-end border-r-4 border-primary">
                 <span>Home</span>

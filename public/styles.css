@@ -585,6 +585,10 @@ video {
   display: grid;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-12{
   height: 3rem;
 }
@@ -883,6 +887,10 @@ video {
 }
 
 @media (min-width: 640px){
+  .sm\:hidden{
+    display: none;
+  }
+
   .sm\:h-48{
     height: 12rem;
   }
@@ -904,6 +912,10 @@ video {
 
   .md\:col-span-2{
     grid-column: span 2 / span 2;
+  }
+
+  .md\:block{
+    display: block;
   }
 
   .md\:flex{
